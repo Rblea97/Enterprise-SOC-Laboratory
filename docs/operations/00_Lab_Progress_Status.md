@@ -71,7 +71,7 @@
 |---------|--------|------------|---------|-------------------|
 | **DC01-WinServer2022** | ✅ Running | 192.168.100.10 | Domain Controller | SOCLAB\Administrator |
 | **WS01-Win10Enterprise** | ✅ Running | DHCP assigned | Client Workstation | SOCLAB\Administrator or .\localadmin |
-| **SIEM01-Ubuntu** | 🔄 Ready for Creation | 192.168.100.30 | Splunk SIEM Desktop | siem-admin / SIEM_Desktop_2024! |
+| **SIEM01-Ubuntu** | 🔄 Ready for Creation | 192.168.100.30 | Splunk SIEM Desktop | [Configured during setup] |
 | **KALI01** | ❌ Not Created | 192.168.100.100 | Attack Platform | Pending |
 
 ### Services Status
@@ -141,13 +141,13 @@
 
 ### Local Admin (Windows 10)
 - **Username**: `.\localadmin`
-- **Password**: `SOC_Client_Admin123!`
+- **Password**: [Set during installation - see setup guide]
 - **Use**: Local Windows 10 administration
 
 ### Planned User Accounts (To Be Created)
 - `john.doe` - IT Admin (Domain Admin rights)
 - `jane.smith` - HR Manager  
-- `test.user` - Regular user (weak password for testing)
+- `test.user` - Regular user (for testing scenarios)
 - Multiple others per AD setup guide
 
 ---

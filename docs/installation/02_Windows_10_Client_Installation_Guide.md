@@ -61,7 +61,7 @@ This guide walks through installing Windows 10 Enterprise and joining it to your
 
 ### Step 9: Local Account Creation
 1. **Name**: `localadmin`
-2. **Password**: `SOC_Client_Admin123!`
+2. **Password**: [Choose a secure password - document separately]
 3. **Security Questions**: Answer all three
 4. **Privacy Settings**: Turn off all options for security
 
@@ -184,7 +184,7 @@ You should see: **"Welcome to the soclab.local domain"**
 4. **"Add a user without a Microsoft account"**
 5. **Create test user**:
    - Username: `testuser`
-   - Password: `TestUser123!`
+   - Password: [Choose a test password]
 
 ---
 
