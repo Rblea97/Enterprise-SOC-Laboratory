@@ -7,7 +7,8 @@
 
 A comprehensive Security Operations Center (SOC) laboratory environment designed for cybersecurity education, security operations training, and enterprise security monitoring simulation.
 
-*Network topology diagram: In development*
+![Splunk SIEM Operations](images/screenshots/Splunk_Search_Dashboard.png)
+*Real-time security event analysis in Splunk Enterprise showing Windows authentication events*
 
 ## 🎯 Project Overview
 
@@ -187,6 +188,17 @@ Windows Events → WEF → Splunk Universal Forwarder → Splunk Enterprise → 
 - **Security Analysis** - Threat pattern recognition and risk assessment
 - **Technical Documentation** - Professional procedure and playbook creation
 - **Stakeholder Communication** - Executive reporting and technical briefings
+
+## 📸 Screenshots & Visual Documentation
+
+### Live SOC Operations
+![Windows Event Viewer](images/screenshots/eventvwr.msc.png)
+*Windows Security Event Logs showing authentication events and audit trail*
+
+![VirtualBox Infrastructure](images/screenshots/DC01_Virtualbox.png)
+*Enterprise laboratory infrastructure with dedicated VM resources*
+
+**[View Complete Screenshot Gallery →](images/)**
 
 ## 📚 Documentation
 
