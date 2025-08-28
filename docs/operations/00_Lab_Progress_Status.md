@@ -1,12 +1,12 @@
 # SOC Analyst Home Lab - Progress Status
 
-**Last Updated**: August 26, 2025  
+**Last Updated**: August 28, 2024  
 **Session Date**: SIEM Setup Session  
 **Status**: Phase 1 Complete - SIEM Ready for Creation
 
 ---
 
-## 🎯 Overall Progress: 95% Complete
+## 🎯 Overall Progress: Core Infrastructure Complete
 
 ### ✅ COMPLETED PHASES
 
@@ -71,7 +71,7 @@
 |---------|--------|------------|---------|-------------------|
 | **DC01-WinServer2022** | ✅ Running | 192.168.100.10 | Domain Controller | SOCLAB\Administrator |
 | **WS01-Win10Enterprise** | ✅ Running | DHCP assigned | Client Workstation | SOCLAB\Administrator or .\localadmin |
-| **SIEM01-Ubuntu** | 🔄 Ready for Creation | 192.168.100.30 | Splunk SIEM Desktop | [Configured during setup] |
+| **SIEM01-Ubuntu** | ✅ Running | 192.168.100.30 | Splunk SIEM Desktop | siem-admin |
 | **KALI01** | ❌ Not Created | 192.168.100.100 | Attack Platform | Pending |
 
 ### Services Status

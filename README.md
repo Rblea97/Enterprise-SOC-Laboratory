@@ -205,8 +205,9 @@ Windows Events → WEF → Splunk Universal Forwarder → Splunk Enterprise → 
 ### 📖 User Guides
 - [**Installation Guide**](docs/installation/) - Complete setup instructions
 - [**Operations Manual**](docs/operations/) - Daily SOC procedures
-- [**Architecture Guide**](docs/architecture/) - System design and networking
-- [**Troubleshooting Guide**](docs/troubleshooting/) - Common issues and solutions
+- [**Security Notice**](docs/SECURITY-NOTICE.md) - Important security guidelines
+- **Architecture Guide** - System design documentation (planned)
+- **Troubleshooting Guide** - Common issues and solutions (planned)
 
 ### 📋 SOC Procedures
 - [**Playbooks**](soc-operations/playbooks/) - Incident response procedures

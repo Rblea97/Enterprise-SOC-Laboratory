@@ -50,12 +50,12 @@ This guide walks through installing Windows Server 2022 and configuring it as a 
 ## Phase 2: Initial Windows Configuration
 
 ### Step 7: Administrator Password
-**Create a strong password and DOCUMENT IT:**
+**Create a strong password and DOCUMENT IT SECURELY:**
 ```
 Username: Administrator
-Password: [Choose a strong password - suggestion: SOC_Lab_Admin123!]
+Password: [Choose a strong password - minimum 12 characters with mixed case, numbers, and symbols]
 ```
-**Write this down - you'll need it throughout the lab!**
+**⚠️ SECURITY NOTICE: Document this password in a secure location (password manager recommended). Never store passwords in public documentation.**
 
 ### Step 8: First Login
 - Press Ctrl+Alt+Del to unlock

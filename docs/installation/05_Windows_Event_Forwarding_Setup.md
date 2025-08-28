@@ -172,7 +172,7 @@ New-GPO -Name "SOC Lab Event Forwarding" -Comment "Configure Windows Event Forwa
 # Run as Local System: Yes
 # Receiving Indexer: 192.168.100.30:9997
 # Admin Username: admin
-# Admin Password: SplunkForwarder2024!
+# Admin Password: [Choose a strong forwarder admin password - document securely]
 ```
 
 ### Step 7: Configure Splunk Universal Forwarder

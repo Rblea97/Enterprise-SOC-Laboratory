@@ -1,7 +1,7 @@
 # Ubuntu Desktop SIEM Installation Guide
 
 ## Overview
-This guide installs Ubuntu Desktop 24.04 and prepares it for Splunk SIEM installation. Ubuntu Desktop provides a GUI interface making SIEM configuration and management easier while maintaining all server capabilities.
+This guide installs Ubuntu Desktop 22.04 LTS and prepares it for Splunk SIEM installation. Ubuntu Desktop provides a GUI interface making SIEM configuration and management easier while maintaining all server capabilities.
 
 ## VM Configuration
 - **Name**: SIEM01-Ubuntu
@@ -49,8 +49,8 @@ This guide installs Ubuntu Desktop 24.04 and prepares it for Splunk SIEM install
 Your name: SIEM Administrator
 Your computer's name: siem01
 Pick a username: siem-admin
-Choose a password: SIEM_Desktop_2024!
-Confirm password: SIEM_Desktop_2024!
+Choose a password: [Choose a strong password - document securely]
+Confirm password: [Confirm your chosen password]
 ```
 - ☑️ Check: "Log in automatically" (for lab convenience)
 - **Continue**
@@ -221,7 +221,7 @@ sudo useradd -r -m -U -d /opt/splunk -s /bin/bash splunk
 
 # Set password for splunk user
 sudo passwd splunk
-# Enter password: Splunk_User_2024!
+# Enter secure password when prompted - document separately
 
 # Create necessary directories
 sudo mkdir -p /opt/splunk
@@ -362,7 +362,7 @@ chmod +x ~/siem-status.sh
 ## Success Criteria Checklist
 
 ### Desktop Installation ✅
-- [ ] Ubuntu Desktop 24.04 installed successfully
+- [ ] Ubuntu Desktop 22.04 LTS installed successfully
 - [ ] GUI desktop environment working
 - [ ] Static IP configured (192.168.100.30)
 - [ ] Can resolve soclab.local domain
@@ -473,7 +473,7 @@ echo 'host-isos /media/host-isos vboxsf defaults 0 0' | sudo tee -a /etc/fstab
 ```
 Domain Controller (DC01)     SIEM Server (SIEM01)         Windows Client (WS01)
 192.168.100.10          ←→   192.168.100.30           ←→   192.168.100.100+
-- Windows Server 2022        - Ubuntu Desktop 24.04        - Windows 10 Enterprise  
+- Windows Server 2022        - Ubuntu Desktop 22.04 LTS     - Windows 10 Enterprise  
 - Active Directory           - Splunk SIEM + GUI           - Domain Joined
 - DNS Server                 - SSH + Web Access            - Event Generation
 - DHCP Server               - Desktop Environment          - Web Browser Access

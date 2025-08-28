@@ -8,6 +8,12 @@ This guide creates a realistic corporate Active Directory structure for SOC anal
 - Domain: soclab.local
 - Administrator access to Domain Controller
 
+## ⚠️ Security Notice
+**This guide contains placeholder password fields that must be replaced with secure passwords.**
+- All passwords must be documented in a secure location (password manager recommended)
+- Never use default or example passwords in production environments
+- Refer to [SECURITY-NOTICE.md](../SECURITY-NOTICE.md) for complete security guidelines
+
 ---
 
 ## Phase 1: Create Organizational Unit Structure
@@ -130,7 +136,7 @@ Create these sub-OUs:
 - **First name**: John
 - **Last name**: Doe  
 - **User logon name**: `john.doe`
-- **Password**: `ITAdmin2024!`
+- **Password**: [Choose a strong IT admin password - document securely]
 - **☑️ User must change password at next logon**: UNCHECKED
 - **☑️ Password never expires**: CHECKED
 - **Description**: Senior IT Administrator
@@ -139,7 +145,7 @@ Create these sub-OUs:
 - **First name**: Mike
 - **Last name**: Johnson
 - **User logon name**: `mike.johnson`
-- **Password**: `ITSupport2024!`
+- **Password**: [Choose a strong support password - document securely]
 - **☑️ User must change password at next logon**: UNCHECKED
 - **☑️ Password never expires**: CHECKED
 - **Description**: IT Support Specialist
@@ -148,7 +154,7 @@ Create these sub-OUs:
 - **First name**: Sarah
 - **Last name**: Wilson
 - **User logon name**: `sarah.wilson`
-- **Password**: `NetAdmin2024!`
+- **Password**: [Choose a strong network admin password - document securely]
 - **☑️ User must change password at next logon**: UNCHECKED
 - **☑️ Password never expires**: CHECKED
 - **Description**: Network Administrator
@@ -160,14 +166,14 @@ Create these sub-OUs:
 - **First name**: Jane
 - **Last name**: Smith
 - **User logon name**: `jane.smith`
-- **Password**: `HRManager2024!`
+- **Password**: [Choose a strong HR manager password - document securely]
 - **Description**: Human Resources Manager
 
 **User 2**: HR Recruiter
 - **First name**: Lisa
 - **Last name**: Brown
 - **User logon name**: `lisa.brown`
-- **Password**: `HRRecruiter2024!`
+- **Password**: [Choose a strong HR recruiter password - document securely]
 - **Description**: HR Recruitment Specialist
 
 ### Step 11: Create Finance Department Users
@@ -177,14 +183,14 @@ Create these sub-OUs:
 - **First name**: Bob
 - **Last name**: Wilson
 - **User logon name**: `bob.wilson`
-- **Password**: `FinManager2024!`
+- **Password**: [Choose a strong finance manager password - document securely]
 - **Description**: Finance Department Manager
 
 **User 2**: Accountant
 - **First name**: Carol
 - **Last name**: Davis
 - **User logon name**: `carol.davis`
-- **Password**: `Accountant2024!`
+- **Password**: [Choose a strong accountant password - document securely]
 - **Description**: Senior Accountant
 
 ### Step 12: Create Executive Users
@@ -194,14 +200,14 @@ Create these sub-OUs:
 - **First name**: Alice
 - **Last name**: Johnson
 - **User logon name**: `alice.johnson`
-- **Password**: `CEO2024!`
+- **Password**: [Choose a strong CEO password - document securely]
 - **Description**: Chief Executive Officer
 
 **User 2**: CTO  
 - **First name**: David
 - **Last name**: Martinez
 - **User logon name**: `david.martinez`
-- **Password**: `CTO2024!`
+- **Password**: [Choose a strong CTO password - document securely]
 - **Description**: Chief Technology Officer
 
 ### Step 13: Create Operations Users
@@ -211,14 +217,14 @@ Create these sub-OUs:
 - **First name**: Tom
 - **Last name**: Anderson
 - **User logon name**: `tom.anderson`
-- **Password**: `OpsManager2024!`
+- **Password**: [Choose a strong operations manager password - document securely]
 - **Description**: Operations Manager
 
 **User 2**: Regular User (Target for attacks)
 - **First name**: Test
 - **Last name**: User
 - **User logon name**: `test.user`
-- **Password**: `Password123!` (Weak password intentionally)
+- **Password**: [Choose a weak password for testing - document securely]
 - **Description**: Standard Operations User
 
 ### Step 14: Create Service Accounts
@@ -228,7 +234,7 @@ Create these sub-OUs:
 - **First name**: SQL
 - **Last name**: Service
 - **User logon name**: `sqlservice`
-- **Password**: `SQLService2024!`
+- **Password**: [Choose a strong SQL service password - document securely]
 - **☑️ Password never expires**: CHECKED
 - **Description**: SQL Server Service Account
 
@@ -236,7 +242,7 @@ Create these sub-OUs:
 - **First name**: Backup
 - **Last name**: Service  
 - **User logon name**: `backupservice`
-- **Password**: `BackupSvc2024!`
+- **Password**: [Choose a strong backup service password - document securely]
 - **☑️ Password never expires**: CHECKED
 - **Description**: Backup Service Account
 
