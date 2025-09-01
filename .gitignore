@@ -1,0 +1,104 @@
+# SOC Lab Portfolio - Clean Repository .gitignore
+# This ensures no sensitive or inappropriate content ever gets committed
+
+# === SENSITIVE INFORMATION ===
+# Never commit passwords, credentials, or secrets
+*.key
+*.pem
+credentials.*
+secrets.*
+.env
+*password*
+*credential*
+*secret*
+
+# === LARGE BINARY FILES ===
+# Virtual Machine Files (never commit these)
+VMs/
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+
+# ISO Images and Installation Files (never commit these)
+ISOs/
+*.iso
+*.dmg
+*.img
+
+# Compressed Archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# === DOCUMENTATION WITH CREDENTIALS ===
+# Any documentation that might contain sensitive lab credentials
+Documentation/00_Lab_Progress_Status.md
+Documentation/01_Windows_Server_Installation_Guide.md
+Documentation/02_Windows_10_Client_Installation_Guide.md
+Documentation/03_Active_Directory_Structure_Setup.md
+Documentation/04_Ubuntu_Desktop_SIEM_Installation_Guide.md
+Documentation/04_Ubuntu_SIEM_Installation_Guide.md
+Documentation/05_Windows_Event_Forwarding_Setup.md
+
+# === PRIVATE FILES ===
+# Interview practice materials (keep private)
+DEMO_GUIDE.md
+*demo*
+*interview*
+
+# === VM SHARED DATA ===
+# Shared folders and temporary VM data
+*_Share/
+SOC_Lab_Share/
+
+# === LOG FILES ===
+# VirtualBox and system logs
+*.log
+Logs/
+logs/
+
+# === SYSTEM FILES ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# === TEMPORARY FILES ===
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# === IDE AND EDITOR FILES ===
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# === Git specific ===
+*.orig
+*.rej
+
+# === Backup files ===
+*.md.bak
+*.md~
+
+# === Any sensitive lab configuration ===
+# Ensure no actual lab configuration with real credentials gets committed
+*config.xml
+*settings.xml
+*lab_config*
